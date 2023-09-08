@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Buyer's Guide",
+        "img": "buyer-guide.png",
+        "theme": "orange"
+    },
+    {
+        "title": "Seller's Guide",
+        "img": "seller-guide.png",
+        "theme": "yellow"
+    },
+    {
+        "title": "Rental Guide",
+        "img": "rental-guide.png",
+        "theme": "green"
+    },
+    {
+        "title": "Home Interior",
+        "img": "home-interior.png",
+        "theme": "purple"
+    },
+    {
+        "title": "Home Vastu",
+        "img": "home-vastu.png",
+        "theme": "blue"
+    }
+]

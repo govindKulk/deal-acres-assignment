@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.topic-shadow {
+    box-shadow: 3px 1px 0px black, -2px -1px 0px black;
+}
