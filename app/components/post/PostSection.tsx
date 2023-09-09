@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react'
 import SectionList from './SectionList';
+import PostHeader from './PostHeader';
 
 type List = {
     title: string;
@@ -13,6 +14,7 @@ export interface PostSectionProps {
     img?: string;
     isList?: boolean;
     lists?: List[];
+    isItalic?: boolean;
 }
 
 
@@ -21,10 +23,11 @@ const PostSection: React.FC<PostSectionProps> = ({
     content,
     img,
     isList,
-    lists
+    lists,
+    isItalic
 }) => {
 
-    
+    console.log(isItalic)
   return (
     <div className='py-4'>
         <div>
@@ -35,10 +38,8 @@ const PostSection: React.FC<PostSectionProps> = ({
             height={100} alt='section image'/>
             }   
         </div>
-        <div className='text-xl font-semibold py-2'>
-            {title}
-        </div>
-        <div className='text-lg font-regular'>
+        <PostHeader size='medium' heading={title} align='left' style={isItalic ? 'italic': ''}/>
+        <div className='text-lg font-regular text-justify'>
             {content}
         </div>
         <ul>

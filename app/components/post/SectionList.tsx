@@ -11,10 +11,10 @@ const SectionList: React.FC<SectionListProps> = ({
 }) => {
   return (
     <li className='py-2'>
-        <div className='font-semibold'>
+        <div className='font-semibold text-lg'>
             {title}
         </div>
-        <div className='font-regular text-sm'>
+        <div className='font-regular'>
             {content}
         </div>
       

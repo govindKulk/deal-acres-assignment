@@ -1,5 +1,5 @@
 import React from 'react'
-import PostCard, { PostCardProps } from './PostCard'
+import PostCard, { PostCardProps } from '../common/PostCard'
 
 
 
@@ -16,6 +16,7 @@ const PostsFeed = ({posts}: {posts: PostCardProps[]}) => {
                     <PostCard
                     title={post.title}
                     img={post.img}
+                    key={index}
                     />
                 )
             })

@@ -1,7 +1,7 @@
 {
     "heading": "How a Rental Agent Can Help You Rent Your Next Apartment or House",
     "publishedOn": "22/08/2023",
-    "img": "post1cover.png",
+    "img": "postcover.png",
     "postIntro": "A rental agent is your personal guide in the world of real estate rentals. While we often associate real estate agents with home purchases, rental agents specialize in helping you find the perfect apartment or house to rent. They're the experts who know the rental market like the back of their hand, equipped with a deep understanding of local neighborhoods, rental trends, and available properties.<br/><br/> In this article, we're diving into the world of rental agents and how they can be the game-changer you didn't know you needed for your next living space. So, whether you're a first-time renter or a seasoned tenant, let's uncover how a rental agent can transform your search for your next apartment or house.",
     "sections": [
         {
@@ -20,19 +20,39 @@
                 {
                     "title": "2. Protection from scams",
                     "content": "With in-depth knowledge of the area, your agent will provide insights into neighborhoods, schools, transportation, and amenities, helping you make an informed decision."
-
+                },
+                
+                {
+                    "title": "Where can you find a real estate agent that works with rentals?",
+                    "content": "You can find agents through various channels. A common approach is to search on reputable real estate agency websites, where agents often list their specialties and contact information. Additionally, requesting recommendations from friends, family, or colleagues who have recently rented properties can yield reliable referrals. Ultimately, online research, word-of-mouth referrals, and attending local events can help you find an excellent real estate agent to assist you in your apartment or home search.            "
+                },
+                {
+                    "title": "3. Protection from scams",
+                    "content": "Rental agents prevent you from scams by verifying ownership, checking landlords, and ensuring legally sound leases, creating a safe rental process."
+                },
+                {
+                    "title": "4. Schedule property viewings",
+                    "content": "Say goodbye to endless property visits. Your agent can schedule and coordinate viewings for you, ensuring you see the most suitable options without the hassle."
+                },
+                {
+                    "title": "5. Communicate with landlords on your behalf",
+                    "content": "These agents act as intermediaries, communicating with landlords on your behalf to address queries, negotiate terms, and facilitate effective communication throughout the rental process."
+                },
+                {
+                    "title": "6. Assist with lease negotiations",
+                    "content": "Leave the negotiating to the pros. Rental agents are skilled at securing favorable lease terms, rental rates, and other terms on your behalf."
+                },
+                {
+                    "title": "7. Help you through the application process",
+                    "content": "Through the application process, rental agents provide the necessary forms, explain requirements, and assist with document submission."
                 }
             ]
         },
         {
             "title": "How much do you pay real estate agents?",
-            "content":"The cost of a real estate agent for rentals can vary based on factors such as location, market norms, and the specific services offered. Typically, you can expect to pay around one month’s rent or a percentage of one year’s rent. So if you rent an apartment in Tallahassee for $2,000 a month, you could pay anywhere between $2,000 to $2,400 if the agent takes 10% of the annual rent. However, practices can differ from region to region, so clarifying the terms and fees with the agent before entering into any agreements is essential. Consulting with the agent or agency upfront will help you understand the cost structure and any potential fees associated with their services in your market.",
-            "img": "section-bg.png"
-        },
-        {
-            "title": "Where can you find a real estate agent that works with rentals?",
-            "content":"You can find agents through various channels. A common approach is to search on reputable real estate agency websites, where agents often list their specialties and contact information. Additionally, requesting recommendations from friends, family, or colleagues who have recently rented properties can yield reliable referrals. Ultimately, online research, word-of-mouth referrals, and attending local events can help you find an excellent real estate agent to assist you in your apartment or home search.            "
+            "isItalic": "true",
+            "content": "The cost of a real estate agent for rentals can vary based on factors such as location, market norms, and the specific services offered. Typically, you can expect to pay around one month’s rent or a percentage of one year’s rent. So if you rent an apartment in Tallahassee for $2,000 a month, you could pay anywhere between $2,000 to $2,400 if the agent takes 10% of the annual rent. However, practices can differ from region to region, so clarifying the terms and fees with the agent before entering into any agreements is essential. Consulting with the agent or agency upfront will help you understand the cost structure and any potential fees associated with their services in your market.",
+            "img": "section-bg-2.png"
         }
     ]
-
 }

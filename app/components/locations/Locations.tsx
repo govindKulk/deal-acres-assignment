@@ -12,11 +12,7 @@ const Locations = () => {
     const [startIndex, setStartIndex] = useState(0)
     const [visibleCitites, setVisibleCities] = useState(20);
 
-    // useEffect(() => {
-    //     setVisibleCities(startIndex + 20)
-    //     setCitiesToShow(cities?.slice(startIndex, visibleCitites))
-    //     console.log("useeffect")
-    // }, [startIndex, visibleCitites])
+   
 
     const handleViewMore = () => {
         setVisibleCities((prevVisibleCities) => prevVisibleCities + 20);
