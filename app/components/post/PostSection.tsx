@@ -12,9 +12,9 @@ export interface PostSectionProps {
     title: string;
     content: string;
     img?: string;
-    isList?: boolean;
+    isList?: string | undefined;
     lists?: List[];
-    isItalic?: boolean;
+    isItalic?: string | undefined;
 }
 
 
