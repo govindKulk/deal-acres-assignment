@@ -1,5 +1,5 @@
 import React from 'react'
-import guides from '@/guidesData.json'
+import guides from '@/data/guidesData.json'
 import GuideCard from './GuideCard'
 
 const Guides = () => {
