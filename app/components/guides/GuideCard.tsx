@@ -46,8 +46,8 @@ const GuideCard: React.FC<GuideCardProps>= ({
 
     
   return (
-    <div className={`flex flex-col items-center ${bgColor} border-l-[8px] ${borderColor} py-2 px-3`}>
-      <div className='font-bold text-xl py-2 '>
+    <div className={`guide-card flex flex-col gap-8 items-center ${bgColor} border-l-[8px] ${borderColor} py-2 px-3`}>
+      <div className='font-bold text-3xl py-2 '>
         {
             title.split(' ')[0]
         }
@@ -59,7 +59,7 @@ const GuideCard: React.FC<GuideCardProps>= ({
         </span>
       </div>
 
-      <Image src={`/images/guides/${img}`} alt={title} width={50} height={50} className='max-w-[100px] ' />
+      <Image src={`/images/guides/${img}`} alt={title} width={80} height={50} className='max-w-[100px] ' />
     </div>
   )
 }
