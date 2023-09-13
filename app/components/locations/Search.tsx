@@ -8,6 +8,8 @@ interface SearchProps {
 
 const Search: React.FC<SearchProps>= ({handleCitySearch}) => {
 
+
+
     const [city, setCity] = useState('')
 
     const handleCityChange = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
